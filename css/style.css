@@ -1,0 +1,134 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.nav_list li a{
+    font-size: 18px;
+}
+.container .nav_name{
+    font-size: 30px;
+    text-shadow: 5px 5px 4px #0000;
+}
+#bg_img{
+    background-image: url(../images/pexels-elti-meshau-333850.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+
+.icon{
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    ;
+    
+}
+.icon a{
+    display: block;
+    padding: 5px 0;
+
+}
+
+.hero_main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+}
+
+.hero_main h1{
+    font-size: 55px;
+}
+
+.hero_main h2{
+    font-size: 40px;
+}
+
+.hero_main p{
+    font-size: 20px;
+}
+
+.hero_na{
+    color: chartreuse;
+    font-size: 50px;
+}
+
+.hero_btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 18px;
+    box-shadow: -2px -2px 2px #fff;
+}
+
+/*-------------------About-------------------*/
+
+
+.about_main{
+    background-color: rgba(246,193,7,0.1);
+}
+
+
+/*-------------------Our Services-------------------*/
+.service_main{
+height: 500px;
+}
+
+.service_body a:hover {
+    text-decoration: none;
+}
+
+.img_setting{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+     
+}
+
+/*-------------------Team-------------------*/
+
+.team_card{
+    width: 300px;
+    height: 450px;
+}
+
+.card img{  
+width: 300px;    
+height: 280px;
+}
+
+/*-------------------Footer-------------------*/
+.footer_main{
+    background-color: rgb(185,169,231);
+}
+
+.footer_main .nav_name{
+    text-shadow: 1px 1px 3px #1e2144;
+}
+
+.footer_body h1{
+    font-size: 30px;
+     text-shadow: 1px 1px 3px #1e2144;
+}
+
+
+.copyright{
+    text-shadow: 3px 3px 2px #afafaf;
+}
+
+.fa-heart-o{
+    color: #f31016;
+}
+
+
+
+
+
